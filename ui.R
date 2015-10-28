@@ -1,3 +1,5 @@
+ ## UI.R
+ 
  library(shiny) 
  shinyUI(pageWithSidebar( 
    headerPanel("Monthly NetPay Calculator"), 
@@ -5,10 +7,10 @@
      h4('Annual Salary'), 
      numericInput('yearlySalary', 'Total Gross Pay (£)', 30000), 
     
-     h5('Deductions'), 
+     h5('Deductions'),
      numericInput('tax', 'Tax (%)', 20), 
      numericInput('pension', 'Pension (%)', 4), 
-     numericInput('nationalInsurance', 'National Insurance', 10), 
+    numericInput('nationalInsurance', 'National Insurance', 10)
 
    ), 
    mainPanel( 
