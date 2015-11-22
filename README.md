@@ -13,7 +13,12 @@ Then by defaults it will based on the standard deductions:
 4% pension 
 10% national Insurance
 
-
 Then the Monthly Netpay will be calculated by using the Total Gross Pay - Tax - Pension - National Insurance
 
+
+Link: https://stephenhuo.shinyapps.io/assignment/
+
 Assignment 2: slidify 
+
+Presentatino File for the Monthly Netpay Calculator
+Link: http://rpubs.com/stephenhuo/NetpayCaculator
