@@ -1,5 +1,7 @@
  ## UI.R
  
+
+ 
  library(shiny) 
  shinyUI(pageWithSidebar( 
    headerPanel("Monthly NetPay Calculator"), 
@@ -21,7 +23,21 @@
      h4('Instructions'), 
      helpText("This application is for people to calculate their monthly Netpay with the Annual Gross Pay. ."), 
      code("Monthly NetPay"), 
-     helpText("Enter the Annual salary and modify the relate deduction to calculate the monthly netpay.")
+     helpText("Enter the Annual salary and modify the relate deduction to calculate the monthly netpay."),
+     br(), 
+     helpText("It allows user to input their Total Gross Pay (in Sterling)"),
+     br(), 
+     helpText("Then by defaults it will based on the standard deductions:"),
+     br(), 
+     helpText("20% tax"),
+     br(), 
+     helpText("4% pension "),
+     br(), 
+     helpText("10% national Insurance"),
+     br(), 
+     helpText("Then the Monthly Netpay will be calculated by using the Total Gross Pay - Tax - Pension - National Insurance
+              ")
 
    ) 
  )) 
+
